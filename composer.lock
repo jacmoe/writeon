@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "baf088d6c2fccb36244c561179100977",
+    "content-hash": "94536385bf632ca491e7d050e34f2af7",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -2284,64 +2284,6 @@
             "time": "2023-07-09T16:59:55+00:00"
         },
         {
-            "name": "leafs/ui",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leafsphp/ui.git",
-                "reference": "326d85a3bfe34da4923d0e0a032aa183ef8aa7d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leafsphp/ui/zipball/326d85a3bfe34da4923d0e0a032aa183ef8aa7d7",
-                "reference": "326d85a3bfe34da4923d0e0a032aa183ef8aa7d7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "leafs/http": "*",
-                "matthiasmullie/minify": "^1.3"
-            },
-            "require-dev": {
-                "leafs/alchemy": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Leaf\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Darko",
-                    "email": "mickdd22@gmail.com",
-                    "homepage": "https://mychi.netlify.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Leaf UI is a PHP library for building user interfaces",
-            "support": {
-                "issues": "https://github.com/leafsphp/ui/issues",
-                "source": "https://github.com/leafsphp/ui/tree/v0.2.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/leafsphp",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/leaf",
-                    "type": "open_collective"
-                }
-            ],
-            "time": "2023-04-17T01:29:53+00:00"
-        },
-        {
             "name": "leafs/vite",
             "version": "v0.1.0",
             "source": {
@@ -2406,130 +2348,6 @@
                 }
             ],
             "time": "2023-08-11T20:43:58+00:00"
-        },
-        {
-            "name": "matthiasmullie/minify",
-            "version": "1.3.71",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1",
-                "reference": "ae42a47d7fecc1fbb7277b2f2d84c37a33edc3b1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "matthiasmullie/path-converter": "~1.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": ">=2.0",
-                "matthiasmullie/scrapbook": ">=1.3",
-                "phpunit/phpunit": ">=4.8",
-                "squizlabs/php_codesniffer": ">=3.0"
-            },
-            "suggest": {
-                "psr/cache-implementation": "Cache implementation to use with Minify::cache"
-            },
-            "bin": [
-                "bin/minifycss",
-                "bin/minifyjs"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\Minify\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "minify@mullie.eu",
-                    "homepage": "https://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
-            "homepage": "https://github.com/matthiasmullie/minify",
-            "keywords": [
-                "JS",
-                "css",
-                "javascript",
-                "minifier",
-                "minify"
-            ],
-            "support": {
-                "issues": "https://github.com/matthiasmullie/minify/issues",
-                "source": "https://github.com/matthiasmullie/minify/tree/1.3.71"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/matthiasmullie",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-04-25T20:33:03+00:00"
-        },
-        {
-            "name": "matthiasmullie/path-converter",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/path-converter.git",
-                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/e7d13b2c7e2f2268e1424aaed02085518afa02d9",
-                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\PathConverter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "pathconverter@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Relative path converter",
-            "homepage": "http://github.com/matthiasmullie/path-converter",
-            "keywords": [
-                "converter",
-                "path",
-                "paths",
-                "relative"
-            ],
-            "support": {
-                "issues": "https://github.com/matthiasmullie/path-converter/issues",
-                "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
-            },
-            "time": "2019-02-05T23:41:09+00:00"
         },
         {
             "name": "nesbot/carbon",
