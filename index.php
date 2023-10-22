@@ -104,6 +104,8 @@ db()->connect([
 
 \Leaf\Database::initDb();
 
+\Leaf\DevTools::install();
+
 /*
 |--------------------------------------------------------------------------
 | Run your Leaf MVC application
