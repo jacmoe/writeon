@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94536385bf632ca491e7d050e34f2af7",
+    "content-hash": "c99bee8a951fe7fd0b150680fd0a5dfe",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -1173,20 +1173,20 @@
         },
         {
             "name": "leafs/aloe",
-            "version": "dev-master",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leafsphp/aloe.git",
-                "reference": "713ff39ddad83f29d19917b5f4b5c90902f2c885"
+                "reference": "1fed3d2e577b6c32f5377a18ed12049c165b750f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leafsphp/aloe/zipball/713ff39ddad83f29d19917b5f4b5c90902f2c885",
-                "reference": "713ff39ddad83f29d19917b5f4b5c90902f2c885",
+                "url": "https://api.github.com/repos/leafsphp/aloe/zipball/1fed3d2e577b6c32f5377a18ed12049c165b750f",
+                "reference": "1fed3d2e577b6c32f5377a18ed12049c165b750f",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "*",
+                "illuminate/support": "^8.73",
                 "leafs/fs": "^1.0",
                 "leafs/mvc-core": "*",
                 "psy/psysh": "^0.10.9|^0.11",
@@ -1196,7 +1196,6 @@
             "require-dev": {
                 "leafs/leaf": "*"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1216,7 +1215,7 @@
                 }
             ],
             "description": "Overpowered command line tool for your leaf apps.",
-            "homepage": "https://leafphp.dev/docs/mvc/console.html",
+            "homepage": "https://leafphp.dev/aloe-cli/",
             "keywords": [
                 "bash",
                 "cli",
@@ -1227,7 +1226,7 @@
             ],
             "support": {
                 "issues": "https://github.com/leafsphp/aloe/issues",
-                "source": "https://github.com/leafsphp/aloe/tree/master"
+                "source": "https://github.com/leafsphp/aloe/tree/v1.4.2"
             },
             "funding": [
                 {
@@ -1239,7 +1238,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-09-12T20:04:33+00:00"
+            "time": "2023-09-03T22:28:50+00:00"
         },
         {
             "name": "leafs/anchor",
@@ -1619,6 +1618,71 @@
                 }
             ],
             "time": "2023-08-03T20:59:45+00:00"
+        },
+        {
+            "name": "leafs/devtools",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafsphp/devtools.git",
+                "reference": "b9371229a0fd944783affef5b65068ebd407836b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafsphp/devtools/zipball/b9371229a0fd944783affef5b65068ebd407836b",
+                "reference": "b9371229a0fd944783affef5b65068ebd407836b",
+                "shasum": ""
+            },
+            "require": {
+                "leafs/leaf": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "pestphp/pest": "^1.21",
+                "symfony/var-dumper": "^6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Leaf\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Darko",
+                    "email": "mickdd22@gmail.com",
+                    "homepage": "https://mychi.netlify.app",
+                    "role": "Developer"
+                }
+            ],
+            "description": "DevTools server-side hook for Leaf PHP",
+            "homepage": "https://leafphp.dev/modules/devtools/",
+            "keywords": [
+                "Devtools",
+                "chrome"
+            ],
+            "support": {
+                "issues": "https://github.com/leafsphp/devtools/issues",
+                "source": "https://github.com/leafsphp/devtools/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/leafsphp",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/leaf",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-05-10T12:36:28+00:00"
         },
         {
             "name": "leafs/exception",
@@ -4356,7 +4420,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "leafs/aloe": 20,
         "leafs/mvc-core": 20
     },
     "prefer-stable": true,

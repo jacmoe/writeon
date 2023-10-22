@@ -97,7 +97,12 @@ Leaf\Core::loadApplicationConfig();
 |
 | **Uncomment the line below to use Leaf Db or Auth**
 */
-// \Leaf\Database::initDb();
+db()->connect([
+  'dbtype' => 'sqlite',
+  'dbname' => 'db.sqlite',
+]);
+
+\Leaf\Database::initDb();
 
 /*
 |--------------------------------------------------------------------------
